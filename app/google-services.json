@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "447297953184",
+    "firebase_url": "https://sochwarelogin.firebaseio.com",
+    "project_id": "sochwarelogin",
+    "storage_bucket": "sochwarelogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447297953184:android:2a4c2cdc0c23936e",
+        "android_client_info": {
+          "package_name": "com.example.santosh.sochware_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447297953184-a682fkkh8evfqk10u9jn1l3d7h1f10ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.santosh.sochware_login",
+            "certificate_hash": "ed36885610f38f592ef0ed84b5f4423d0993ee48"
+          }
+        },
+        {
+          "client_id": "447297953184-k9jsln0fmabrdhp4k0s0sl6jfdn3gfie.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "447297953184-k9jsln0fmabrdhp4k0s0sl6jfdn3gfie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqrY3VBW4Bz-pkmyyXwachl9AbAOC_EI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447297953184-k9jsln0fmabrdhp4k0s0sl6jfdn3gfie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

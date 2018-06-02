@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgd_transparent_welcome">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="164dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="63dp"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+
+        android:ems="10"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/signout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/signout"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="298dp"
+        android:background="@drawable/background_btn3"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Sign out"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+</android.support.constraint.ConstraintLayout>
